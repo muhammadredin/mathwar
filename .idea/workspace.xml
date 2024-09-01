@@ -5,13 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6fe9f344-5885-46be-83ab-92eaa7e1718e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/muhammadredin/Entity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/muhammadredin/Mortal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/muhammadredin/Weapon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/muhammadredin/WeaponType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mathwar-app-main/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mathwar-app-main/src/main/java/io/github/muhammadredin/Level.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mathwar-app-main/src/main/java/io/github/muhammadredin/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mathwar-app-resources/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mathwar-app-resources/src/main/java/io/github/muhammadredin/Mortal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mathwar-app-resources/src/main/java/io/github/muhammadredin/Waves.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/muhammadredin/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/muhammadredin/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/muhammadredin/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/muhammadredin/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/muhammadredin/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/mathwar-app-resources/src/main/java/io/github/muhammadredin/Entity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/muhammadredin/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/mathwar-app-main/src/main/java/io/github/muhammadredin/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/muhammadredin/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/muhammadredin/Mortal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/muhammadredin/Weapon.java" beforeDir="false" afterPath="$PROJECT_DIR$/mathwar-app-resources/src/main/java/io/github/muhammadredin/Weapon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/muhammadredin/WeaponType.java" beforeDir="false" afterPath="$PROJECT_DIR$/mathwar-app-resources/src/main/java/io/github/muhammadredin/WeaponType.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,26 +30,26 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Enum" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "muhammadredin"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;muhammadredin&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/muhammadredin/mathwar.git",
-    "accountId": "2eefff20-f545-433e-8162-505d4086c1e3"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/muhammadredin/mathwar.git&quot;,
+    &quot;accountId&quot;: &quot;2eefff20-f545-433e-8162-505d4086c1e3&quot;
   }
-}]]></component>
+}</component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="ProjectErrors" />
   </component>
@@ -56,7 +64,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.Main.executor": "Debug",
+    "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
@@ -65,9 +73,18 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/mathwar-app-resources/src/main/java/io/github/muhammadredin" />
+      <recent name="$PROJECT_DIR$/mathwar-app-main/src/main/java/io/github/muhammadredin" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.github.muhammadredin.Main" />
@@ -105,22 +122,24 @@
       <option name="presentableId" value="Default" />
       <updated>1725006451849</updated>
       <workItem from="1725006452962" duration="27000" />
-      <workItem from="1725008033406" duration="16749000" />
+      <workItem from="1725008033406" duration="20830000" />
+      <workItem from="1725078683924" duration="5983000" />
+      <workItem from="1725162704938" duration="1942000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/io/github/muhammadredin/Main.java</url>
-          <line>5</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

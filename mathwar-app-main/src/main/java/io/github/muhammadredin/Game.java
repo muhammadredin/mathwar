@@ -48,14 +48,14 @@ public class Game {
         Random rand = new Random();
         Scanner input = new Scanner(System.in);
         if (this.gameTurn == GameTurn.PLAYER) {
-            int number1 = rand.nextInt(100);
-            int number2 = rand.nextInt(100);
+            int number1 = rand.nextInt(10);
+            int number2 = rand.nextInt(10);
             int answer = number1 + number2;
             System.out.println("Solve This to Attack: " + number1 + " + " + number2);
-            int userInput = getInputWithTimeout(5);
+            Integer userInput = getInputWithTimeout(10);
 
 
-            if (userInput == 0) {
+            if (userInput == null) {
                 cpu.attack(player);
                 System.out.println("You've been attacked!");
                 System.out.println(player.getName() + " HP left: " +
